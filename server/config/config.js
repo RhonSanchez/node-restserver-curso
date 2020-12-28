@@ -2,7 +2,7 @@
 // PORT
 // =================================
 
-process.env.PORT = process.env.PORT || 8080;
+process.env.PORT = process.env.PORT || 8081;
 
 // =================================
 // ENTORNO
@@ -39,3 +39,11 @@ if (process.env.NODE_ENV === "dev") {
 }
 
 process.env.URLDB;
+
+// =================================
+// GOOGLE CLIENT ID
+// =================================
+
+process.env.CLIENT_ID =
+    process.env.CLIENT_ID ||
+    "10631199224-gpp14mebrol5h4bjaralhcoauuu23igo.apps.googleusercontent.com";
